@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:gravity="fill"
+    android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/inputSearch_colleges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:hint="Search Colleges..."
+            android:inputType="textVisiblePassword"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/list_view_colleges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/inputSearch_colleges"
+            android:layout_centerHorizontal="true" >
+
+        </ListView>
+
+        
+
+</RelativeLayout>
